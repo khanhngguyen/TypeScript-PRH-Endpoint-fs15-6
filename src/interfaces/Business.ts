@@ -3,14 +3,13 @@ import BisCompanyForm from "./BisCompanyForm";
 import BisCompanyName from "./BisCompanyName";
 import BisRegisteredEntry from "./BisRegisteredEntry";
 import BisRegisteredOffice from "./BisRegisteredOffice";
-import Company from "./Company";
 
-interface Business extends Company {
-    name?: string
-    registrationDate: string
-    companyForm?: string
-    detailsUri?: string 
-    liquidations?: []
+interface Business {
+    // name: string
+    // registrationDate: string
+    // companyForm?: string
+    // detailsUri?: string 
+    // liquidations?: []
     names: BisCompanyName[]
     auxiliaryNames?: BisCompanyName[]
     addresses?: BisAddress[]

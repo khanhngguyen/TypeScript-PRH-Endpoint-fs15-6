@@ -9,7 +9,6 @@ interface BisAddress {
     endDate? : string | null
     language?: string
     source?: number
-
 }
 
 export default BisAddress
