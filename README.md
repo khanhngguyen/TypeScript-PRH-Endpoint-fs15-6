@@ -177,3 +177,17 @@ The task is to use TypeScript to fetch data from a 3rd party service
 
 EN: http://avoindata.prh.fi/ytj_en.html
 end-point for fetching the company information: http://avoindata.prh.fi/bis/v1
+
+## Result 
+Test with function findCompanies(3, 2, "00100"), with:
+  - first parameter: 3 = maxResult = total number of results returned
+  - 2nd parameter: 2 = resultsFrom = the number of results to be skipped
+  - 3rd parameter: "00100" = postalCode = the postal code address
+
+Result is a list of all companies that satisfied the parameters. Each company has detailed information
+
+Result example:
+![result example](demo1.png)
+Result example expanded:
+![result example expanded](./demo2.png)
+
