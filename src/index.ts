@@ -37,8 +37,8 @@ const getData = async <T> (endpoint: string) => {
 const getBusiness = async (id: string) => {
   const data = await getData <Business> (`https://avoindata.prh.fi/bis/v1/${id}`);
   const util = require('util');
-  //console.log(util.inspect(data, false, null, true));
-  console.log(data);
+  console.log(util.inspect(data, false, null, true));
+  //console.log(data);
   //console.log(JSON.stringify(data, null, 4));
   return data;
 }
