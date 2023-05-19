@@ -1,3 +1,5 @@
+import { Source } from "./BisAddress"
+
 interface BisCompanyForm {
     version: number
     name: string
@@ -5,7 +7,7 @@ interface BisCompanyForm {
     resgitrationDate: string
     endDate?: string | null
     language?: string
-    source?: number 
+    source?: Source
 }
 
 export default BisCompanyForm

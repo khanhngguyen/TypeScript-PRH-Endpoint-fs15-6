@@ -1,3 +1,9 @@
+export enum Source {
+    'Common' = 0,
+    'Finnish Patent and Registration Office' = 1,
+    'Tax Administration or three for Business Information' = 2
+}
+
 interface BisAddress {
     careOf?: null
     street?: string
@@ -8,7 +14,7 @@ interface BisAddress {
     registrationDate: string
     endDate? : string | null
     language?: string
-    source?: number
+    source?: Source
 }
 
 export default BisAddress

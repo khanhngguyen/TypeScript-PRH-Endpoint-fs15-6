@@ -187,7 +187,7 @@ Test with function findCompanies(3, 2, "00100"), with:
 Result is a list of all companies that satisfied the parameters. Each company has detailed information
 
 Result example:
-![result example](demo1.png)
+![result example](./demo1%2014.36.26.png)
 Result example expanded:
-![result example expanded](./demo2.png)
+![result example expanded](./demo2%2014.36.26.png)
 

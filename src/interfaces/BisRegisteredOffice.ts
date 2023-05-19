@@ -1,3 +1,4 @@
+import { Source } from "./BisAddress";
 import BisCompanyForm from "./BisCompanyForm";
 
 interface BisRegisteredOffice extends BisCompanyForm {
@@ -7,7 +8,7 @@ interface BisRegisteredOffice extends BisCompanyForm {
     resgitrationDate: string
     endDate?: string | null
     language?: string
-    source?: number 
+    source?: Source
 }
 
 export default BisRegisteredOffice
